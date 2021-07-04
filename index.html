@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crossword Puzzle</title>
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/hover-min.css">
+</head>
+<body>
+    <ul class="nav justify-content-center mt-5">
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="font-size: 30px;">
+            English Vocabulary Word Puzzle
+          </a>
+        </li>
+      </ul>
+      <style>
+          table{
+              width:auto;
+              /* max-height: fit-content; */
+              border-collapse: collapse;
+          }
+          tr, td{
+              padding: 0px;
+          }
+          input[type="text"]{
+            text-transform:uppercase;
+            text-align: center;
+            border: 0.1px solid black;
+            width: 40px;
+            padding: 10%;
+            margin: 0.2px;
+            background: transparent;
+            outline: none;
+          }
+          .bs{
+              border: transparent;
+              background-color: black;
+          }
+      </style>
+      <div class="container" style="margin-top: 3%;">
+        <div class="col-md-10 offset-md-1">
+           <div class="row" style="margin-top: 5%;">
+                <div class="col-lg-6">
+                    <b>Puzzle 1</b>
+                    <table cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><input type="text" maxlength="1" class="simple" data-simple="0"></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><input type="text" maxlength="1" class="simple" data-simple="1"></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><input type="text" maxlength="1" class="compound" data-compound="0" ></td>
+                            <td></td>
+                            <td><input type="text" maxlength="1" class="simple " data-simple="2"></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="text" maxlength="1" data-complex="0" class="complex"></td>
+                            <td><input type="text" maxlength="1" data-compound="1" data-complex="1" class="complex compound"></td>
+                            <td><input type="text" maxlength="1" data-complex="2" class="complex"></td>
+                            <td><input type="text" maxlength="1" data-complex="3" class="simple complex" data-simple="3"></td>
+                            <td><input type="text" maxlength="1" data-complex="4" class="complex" ></td>
+                            <td><input type="text" maxlength="1" data-complex="5" class="complex" ></td>
+                            <td><input type="text" maxlength="1" data-complex="6" class="complex" ></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><input type="text" maxlength="1" class="compound" data-compound="2"></td>
+                            <td></td>
+                            <td><input type="text" maxlength="1" class="simple" data-simple="4"></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><input type="text" maxlength="1" class="compound" data-compound="3"></td>
+                            <td></td>
+                            <td><input type="text" maxlength="1" class="simple" data-simple="5"></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><input type="text" maxlength="1" class="compound" data-compound="4"></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><input type="text" maxlength="1" class="compound" data-compound="5"></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" maxlength="1" class="sentence" data-sentence="0"></td>
+                            <td><input type="text" maxlength="1" class="sentence" data-sentence="1"></td>
+                            <td><input type="text" maxlength="1" class="compound sentence" data-sentence="2" data-compound="6"></td>
+                            <td><input type="text" maxlength="1" class="sentence" data-sentence="3"></td>
+                            <td><input type="text" maxlength="1" class="sentence" data-sentence="4"></td>
+                            <td><input type="text" maxlength="1" class="sentence" data-sentence="5"></td>
+                            <td><input type="text" maxlength="1" class="sentence" data-sentence="6"></td>
+                            <td><input type="text" maxlength="1" class="sentence" data-sentence="7"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><input type="text" maxlength="1" class="compound" data-compound="7"></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                    <a href="2.html">
+                        <button class="float-right btn btn-sm btn-info mt-4 mb-4  pl-3 pr-3">Next</button>
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <h5 class="ml-3 mt-5">Definition</h5>
+                    <ol class="" style="font-size: 20px;">
+                        <li class="mt-4">A group of words that expresses a complete meaning makes a.</li>
+                        <li class="mt-4">Has only one subject and one predicate.</li>
+                        <li class="mt-4">Contains two or more independent clauses.</li>
+                        <li class="mt-4">Contains a main clause and one or more subordinate clauses.</li>
+                    </ol>
+                    
+                </div>
+           </div>
+        </div>
+      </div>
+
+</body>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/crossword_one.js"></script>
+</html>
